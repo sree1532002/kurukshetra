@@ -1,121 +1,24 @@
 #stylehome{
-background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#bg{
-    background-color: #e3d18a;
-}
-.bg-img {
-    background-image: url("home.jpg");
-    height: 600px;
-    background-position: center;
+  background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
   }
-  #t{
-      color: #faf3e0;
-      font-size: larger;
-      position: absolute;
-      margin-left: 20px;
+  #bg{
+      background-color: #e3d18a;
   }
-  #p{
+  .bg-img {
+      background-image: url("home.jpg");
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       position: relative;
-  }
-  #alignnav{
-      position:fixed;
-  }
-  
-  a:link, a:visited {
-    background-color: #faf3e0;
-    color: #1e212d;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  a{
-    margin: 10px;
-    border-radius: 10px;
-    font-size: 20px;
-  }
-  a:hover, a:active {
-    background-color: #eabf9f;
-    color: #1e212d;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  #topic{
-    text-align:center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 110px;
-    color: #faf3e0;
-    padding:100px;
-  }
-  #image{
-    height:100px;
-    width:100px;
-  }
-  #about{
-    background-image: linear-gradient(to bottom right, #faf3e0, #9b5151);
-    font-size: x-large;
-    padding:100px;
-    font-style: normal;
-    font-weight: normal;
-}
-#bg{
-    background-image: linear-gradient(to bottom right, white, #1e212d);
-}
-#heading{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-div.gallery {
-    margin: 8px;
-    float: left;
-    width: 490px;
-    padding:20px;
-    border-radius: 12px;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-    color: #faf3e0;
-  }
-
-  @media only screen and (max-width: 800px){
-    div.gallery {
-        margin: 8px;
-        border: 5px solid #ccc;
-        float: left;
-        width: 358px;
-      }
-      
-      div.gallery img {
-        width: 100%;
-        height: auto;
-      }
-      
-      div.desc {
-        padding: 15px;
-        text-align: center;
-      }
-  }
-  @media only screen and (max-width: 600px) {
+    }
     #t{
         color: #faf3e0;
-        font-size: small;
+        font-size: larger;
         position: absolute;
-        margin-left: 3px;
+        margin-left: 20px;
     }
     #p{
         position: relative;
@@ -127,22 +30,20 @@ div.gallery {
     a:link, a:visited {
       background-color: #faf3e0;
       color: #1e212d;
-      padding: 3px 4px;
+      padding: 14px 25px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
     }
     a{
-      margin: 2px;
-      border-radius: 8px;
-      font-size: 15px;
-      width:70px;
-      margin-top: 15px;
+      margin: 10px;
+      border-radius: 10px;
+      font-size: 20px;
     }
     a:hover, a:active {
       background-color: #eabf9f;
       color: #1e212d;
-      padding: 3px 4px;
+      padding: 14px 25px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -150,41 +51,136 @@ div.gallery {
     #topic{
       text-align:center;
       font-family: 'Dancing Script', cursive;
-      font-size: 70px;
+      font-size: 110px;
       color: #faf3e0;
-      padding:80px;
-      margin-top: 65px;
+      padding:100px;
     }
     #image{
-        height:60px;
-        width:60px;
+      height:100px;
+      width:100px;
     }
     #about{
-        background-image: linear-gradient(to bottom right, #faf3e0, #9b5151);
-        font-size: medium;
-        padding:7px;
-        font-style: normal;
-        font-weight: normal;
+      background-image: linear-gradient(to bottom right, #faf3e0, #9b5151);
+      font-size: x-large;
+      padding:100px;
+      font-style: normal;
+      font-weight: normal;
   }
-
+  #bg{
+      background-image: linear-gradient(to bottom right, white, #1e212d);
+  }
   #heading{
       text-align: center;
       font-family: 'Times New Roman', Times, serif;
   }
   div.gallery {
-    margin: 5px;
-    border: 3px solid #ccc;
-    float: left;
-    width: 340px;
-  }
-  div.gallery img {
-    width: 100%;
-    height: auto;
-    padding:10px;
-  }
+      margin: 8px;
+      float: left;
+      width: 490px;
+      padding:20px;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      color: #faf3e0;
+    }
   
-  div.desc {
-    padding: 5px;
-    text-align: center;
+    @media only screen and (max-width: 800px){
+      div.gallery {
+          margin: 8px;
+          float: left;
+          width: 358px;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+      #t{
+          color: #faf3e0;
+          font-size: small;
+          position: absolute;
+          margin-left: 3px;
+      }
+      #p{
+          position: relative;
+      }
+      #alignnav{
+          position:fixed;
+      }
+      
+      a:link, a:visited {
+        background-color: #faf3e0;
+        color: #1e212d;
+        padding: 3px 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a{
+        margin: 2px;
+        border-radius: 8px;
+        font-size: 15px;
+        width:70px;
+        margin-top: 15px;
+      }
+      a:hover, a:active {
+        background-color: #eabf9f;
+        color: #1e212d;
+        padding: 3px 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      #topic{
+        text-align:center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 70px;
+        color: #faf3e0;
+        padding:80px;
+        margin-top: 65px;
+      }
+      #image{
+          height:60px;
+          width:60px;
+      }
+      #about{
+          background-image: linear-gradient(to bottom right, #faf3e0, #9b5151);
+          font-size: medium;
+          padding:7px;
+          font-style: normal;
+          font-weight: normal;
+    }
+  
+    #heading{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    div.gallery {
+      float: left;
+      width: 340px;
+    }
+    div.gallery img {
+      width: 100%;
+      height: auto;
+      padding:10px;
+    }
+    
+    div.desc {
+      padding: 5px;
+      text-align: center;
+    }
   }
-}
