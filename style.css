@@ -18,6 +18,14 @@ background-position: center;
 #menucard1{
   margin-left: 90px;
 }
+#moremenu{
+  margin-left: 660px;
+  width:200px;
+  height:60px;
+  padding:3px;
+  border-radius: 30px;
+  font-size: x-large;
+}
 .bg-img {
     background-image: url("home.jpg");
     height: 600px;
@@ -39,7 +47,7 @@ background-position: center;
       position:fixed;
   }
   
-  a:link, a:visited {
+  #item:link, #item:visited {
     background-color: #faf3e0;
     color: #1e212d;
     padding: 14px 25px;
@@ -47,12 +55,12 @@ background-position: center;
     text-decoration: none;
     display: inline-block;
   }
-  a{
+  #item{
     margin: 10px;
     border-radius: 10px;
     font-size: 20px;
   }
-  a:hover, a:active {
+  #item:hover, #item:active {
     background-color: #eabf9f;
     color: #1e212d;
     padding: 14px 25px;
@@ -72,7 +80,7 @@ background-position: center;
     width:100px;
   }
   #about{
-    background-image: linear-gradient(to bottom right, #faf3e0, #9b5151);
+    background-image: linear-gradient(to bottom right, #ff884b, #ffc764);
     font-size: x-large;
     padding:60px;
     font-style: normal;
@@ -136,7 +144,7 @@ background-position: center;
         position:fixed;
     }
     
-    a:link, a:visited {
+    #item:link, #item:visited {
       background-color: #faf3e0;
       color: #1e212d;
       padding: 3px 4px;
@@ -144,14 +152,14 @@ background-position: center;
       text-decoration: none;
       display: inline-block;
     }
-    a{
+    #item{
       margin: 2px;
       border-radius: 8px;
       font-size: 15px;
       width:70px;
       margin-top: 15px;
     }
-    a:hover, a:active {
+    #item:hover, #item:active {
       background-color: #eabf9f;
       color: #1e212d;
       padding: 3px 4px;
@@ -172,7 +180,7 @@ background-position: center;
         width:60px;
     }
     #about{
-        background-image: linear-gradient(to bottom right, #faf3e0, #9b5151);
+      background-image: linear-gradient(to bottom right, #ff884b, #ffc764);
         font-size: medium;
         padding:12px;
         font-style: normal;
@@ -217,5 +225,13 @@ background-position: center;
   #menucard2{
     height:auto;
     max-width: 270px;
+  }
+  #moremenu{
+    margin-left: 110px;
+    width:150px;
+    height:50px;
+    padding:5px;
+    border-radius: 30px;
+    font-size: large;
   }
 }
