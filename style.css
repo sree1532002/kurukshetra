@@ -96,14 +96,14 @@ background-position: center;
   grid-gap: 30px;
 }
 .grid-child{
-  background-color: #1e212d;
+  background-color: #91091e;
   color:#faf3e0;
   border-radius: 10px;
   padding:30px;
   font-size: large;
 }
 .grid-child:hover{
-  background-color: #5b5b5b;
+  background-color: #1e212d;
 }
 .mm{
   text-align: center;
@@ -126,7 +126,10 @@ background-position: center;
   padding: 15px;
   border-radius: 4px;
 }
-
+#menubutton{
+  text-decoration: none;
+  color: white;
+}
 #myBtn:hover {
   background-color: #555;
 }
@@ -186,7 +189,10 @@ background-position: center;
         font-style: normal;
         font-weight: normal;
   }
-
+#menubutton{
+  text-decoration: none;
+  color: white;
+}
   #heading{
       text-align: center;
       font-family: 'Times New Roman', Times, serif;
@@ -195,18 +201,19 @@ background-position: center;
   .grid-container {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
   .grid-child{
-    background-color: #1e212d;
+    background-color: #91091e;
     color:#faf3e0;
-    border-radius: 8px;
-    padding:20px;
+    border-radius: 10px;
+    padding:10px;
     font-size: small;
   }
   .grid-child:hover{
-    background-color: #5b5b5b;
+    background-color: #1e212d;
   }
+
   #cardimg{
     max-height: 200px;
     border-radius: 40px;
