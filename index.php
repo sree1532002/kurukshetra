@@ -80,7 +80,7 @@ Our restaurants serve South Indian, North Indian as well Chinese delicacies! We 
 
 <div class="mySlides fade">
  
-  <img src="https://lh3.googleusercontent.com/proxy/cCAeLN_UMTKBX-MbAx8kkDrzMCwgxedkJ--g52A6GlDh_yS5c3YV0tULvmFgsYSMGrcbUuQfONDd-qRgCvcEcVA4HpR1wf5Lt31nyfqUvXbMI36ip7tTXEeKAluDNde_xiKL9Tjm" id="cardimg"style="width:100%;height:auto">
+  <img src="http://myindianstay.com/blog/wp-content/uploads/2015/09/aloo-parathe-1024x683.jpg" id="cardimg"style="width:100%;height:auto">
   
 </div>
 
